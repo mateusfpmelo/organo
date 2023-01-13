@@ -2,6 +2,7 @@ import  Banner from './componentes/Banner';
 import Formulario from './componentes/Formulario';
 import { useState } from 'react';
 import Time from './componentes/Time';
+import Rodape from './componentes/Rodape';
 
 function App() {
 
@@ -60,6 +61,7 @@ function App() {
       />)} 
      {/* map = para cada time, cria um componente com esse nome | É necessário
      informar a chave key específica por objeto (erro no console) */}
+     <Rodape/>
 
     </div>
   );

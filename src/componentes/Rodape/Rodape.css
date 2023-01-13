@@ -1,0 +1,27 @@
+.rodape {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #6278f7;
+    text-align: center;
+    justify-content: space-around;
+    padding:50px;
+    align-items: center;
+    gap:40px;
+}
+
+.rodapeEsquerdo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.rodapeEsquerdo img {
+    height:20px;
+    width:20px;
+}
+
+.rodapeDireito h3 {
+    color:#ffffff
+}
